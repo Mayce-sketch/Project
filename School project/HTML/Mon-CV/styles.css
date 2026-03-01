@@ -1,0 +1,74 @@
+body {
+    margin: 0; /* retresi en desencdant le block */
+    padding: 0; /* decale l interieur du block sur les coter */
+    background-color: #cecece; /* couleur de fond */
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background: linear-gradient(#014a98, #FFFFFF); /* degrader de couleur */
+    height: 115px; /* postion part rapot a header : gird */
+    display: grid;
+    grid-template-columns:  1fr min-content;
+}
+
+header > div > h1 {
+    padding: 10px;
+    padding-left: 60px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 0.625em;
+}
+
+#icone_CV {
+    position:100% ;
+    background-color: black;
+    color: white;
+    width: 3.75em; 
+    height: 3.75em;
+    text-align: center;
+    font-weight: bold; /* plus lisible */
+    
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 0.938em; /* un bout rond */
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    border-top: 2px solid #00000000; /* Une ligne de séparation */
+}
+
+.Titre_partie{
+    font-weight: bold;
+    font-family: serif;
+    font-size:larger;
+    text-align:center; 
+    margin: 10px;
+}
+
+.Texte{
+    margin: 20px;
+    margin-left: 5%;
+    font-size: medium ;
+}
+.contenu_Gauche {
+    border-right: 10px solid rgba(105, 105, 105, 0.325); /* Une ligne de séparation */
+    background-color: #faf4be6c;
+    
+}
+.contrnu_Droite {
+    background-color: #a7a8736c;
+}
+
+.Lien_Projet {
+    color: black;           
+}
+
+.Lien_Projet:hover {
+    color: blue;          
+}

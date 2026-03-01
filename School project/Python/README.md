@@ -1,0 +1,1 @@
+# All the projects I completed during my high school years.
